@@ -3,5 +3,5 @@ dependencies {
     api('com.github.tony19:logback-android-classic:1.1.1-6') {
         exclude group: 'com.google.android', module: 'android'
     }
-    compile 'org.slf4j:slf4j-api:1.7.21'
+    api 'org.slf4j:slf4j-api:1.7.21'
 }
